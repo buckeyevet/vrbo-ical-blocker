@@ -9,7 +9,7 @@ cal = Calendar()
 cal.add('prodid', '-//VRBO Auto Blocker//mxm.dk//')
 cal.add('version', '2.0')
 
-start = datetime.now(tz) + timedelta(days=8)
+start = datetime.now(tz) + timedelta(days=10)
 end = datetime.now(tz) + timedelta(days=365)
 
 cur = start
